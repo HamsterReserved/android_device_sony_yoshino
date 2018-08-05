@@ -47,6 +47,9 @@ TARGET_RECOVERY_FSTAB ?= $(PLATFORM_COMMON_PATH)/rootdir/vendor/etc/fstab.yoshin
 
 TARGET_PD_SERVICE_ENABLED := true
 
+# QCOM hardware
+BOARD_USES_QCOM_HARDWARE := true
+
 # Wi-Fi definitions for Qualcomm solution
 WIFI_DRIVER_BUILT := qca_cld3
 WIFI_DRIVER_DEFAULT := qca_cld3
