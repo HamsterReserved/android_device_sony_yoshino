@@ -84,4 +84,6 @@ TARGET_HAS_HDR_DISPLAY := true
 # FPC version select
 TARGET_FPC_VERSION := N
 
+TARGET_COMPILE_WITH_MSM_KERNEL:=true
+
 include device/sony/common/CommonConfig.mk
