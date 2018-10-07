@@ -94,6 +94,10 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8998 \
     memtrack.msm8998
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.mokee.livedisplay@1.0-service-sdm
+
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8998
